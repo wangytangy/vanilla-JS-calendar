@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href='./styles/index.css'>
+  </head>
+  <body>
+    <section class='container'>
+      <button id='prev-btn' class='btn'>
+        <i class='left'></i>
+      </button>
+      <div class='calendar-wrapper'>
+        <div class='header'>
+          <h4 id='month-year'></h4>
+        </div>
+        <div id='calendar'>
+          <div id='weekday-header'>
+            <div class='day weekend-day'>S</div>
+            <div class='day weekday'>M</div>
+            <div class='day weekday'>T</div>
+            <div class='day weekday'>W</div>
+            <div class='day weekday'>T</div>
+            <div class='day weekday'>F</div>
+            <div class='day weekend-day'>S</div>
+          </div>
+          <div id='calendar-days'></div>
+        </div>
+      </div>
+      <button id='next-btn' class='btn'>
+        <i class='right'></i>
+      </button>
+    </section>
+    <script type='text/javascript' src='./scripts/index.js'></script>
+  </body>
+</html>

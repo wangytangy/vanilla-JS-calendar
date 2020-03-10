@@ -1,0 +1,31 @@
+.btn {
+  border-radius: 50%;
+  color: darken(#cecece, 15%);
+  border: 1px solid #cecece;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+
+  margin: 0 10px;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+i {
+  border: solid #000;
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+}
+
+.left {
+  transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}

@@ -1,0 +1,50 @@
+@import './button.css';
+@import './_reset.css';
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 40px 0;
+}
+
+#calendar {
+  border: 1px solid #ccc;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#weekday-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 42px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+#calendar-days {
+  width: 310px;
+  height: 260px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekend-day {
+  color: #FC1120;
+}
