@@ -39,12 +39,12 @@ class Calendar {
     return lastDayOfMonth;
   }
 
-  onNext = () => {
+  onNextClick = () => {
     this.date = new Date(this.date.setMonth(this.date.getMonth() + 1));
     this.renderCalendar();
   }
 
-  onPrev = () => {
+  onPrevClick = () => {
     this.date = new Date(this.date.setMonth(this.date.getMonth() - 1));
     this.renderCalendar();
   }
@@ -112,7 +112,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   const calendar = new Calendar();
   const nextBtn = document.getElementById('next-btn');
   const prevBtn = document.getElementById('prev-btn');
-  nextBtn.addEventListener('click', calendar.onNext);
-  prevBtn.addEventListener('click', calendar.onPrev);
+  nextBtn.addEventListener('click', calendar.onNextClick);
+  prevBtn.addEventListener('click', calendar.onPrevClick);
   calendar.renderCalendar();
 });
