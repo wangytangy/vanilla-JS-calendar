@@ -1,9 +1,9 @@
 .btn {
   border-radius: 50%;
-  color: darken(#cecece, 15%);
-  border: 1px solid #cecece;
-  width: 30px;
-  height: 30px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,12 +14,13 @@
 
 .btn:hover {
   background-color: #eee;
+  border-color: #eee;
 }
 
 i {
-  border: solid #000;
+  border: solid #fff;
   border-width: 0 3px 3px 0;
-  padding: 3px;
+  padding: 2px;
 }
 
 .left {
